@@ -21,3 +21,7 @@ The Emoji Social Network is a social media website where users can communicate e
    ```bash
    git clone https://github.com/AdrianJoeK/emoji-social-network.git
    cd emoji-social-network
+2. **Import SQL File Into Your Database**
+- Import "setup-files-do-not-upload-to-web-server/emoji_social_network.sql" into your database. This will create the database structure for you.
+3. **Create db.php Using Template**
+  - Copy "setup-files-do-not-upload-to-web-server/db-template.php" into your root folder, rename it to "db.php", then edit the file with your database connection information.
