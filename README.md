@@ -13,6 +13,7 @@ The Emoji Social Network is a social media website where users can communicate e
 
 - PHP 7.4 or higher
 - MariaDB 10.6.17 or any compatible MySQL database
+Others may work, this is what I tested it with.
 
 ## Installation
 
@@ -25,3 +26,6 @@ The Emoji Social Network is a social media website where users can communicate e
 - Import "setup-files-do-not-upload-to-web-server/emoji_social_network.sql" into your database. This will create the database structure for you.
 3. **Create db.php Using Template**
   - Copy "setup-files-do-not-upload-to-web-server/db-template.php" into your root folder, rename it to "db.php", then edit the file with your database connection information.
+
+## Test Site
+I am hosting this on my website for you to try out at https://adrian-kilgour.xyz/emojinet
