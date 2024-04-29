@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1>😂Emoji Network😍</h1>
+<h2>Login</h2>
+<form action="login.php" method="post" accept-charset="UTF-8">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br>
+    <label for="tag">Tag (0000 - 9999):</label>
+    <input type="text" id="tag" name="tag" pattern="^\d{4}$" title="Tag must be four digits" required><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+    <input type="submit" value="Login">
+</form>
+<h2>Registration</h2>
+<form action="register.php" method="post" accept-charset="UTF-8">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br>
+    <label for="tag">Tag (0000 - 9999):</label>
+    <input type="text" id="tag" name="tag" pattern="^\d{4}$" title="Tag must be four digits" required><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+    <input type="submit" value="Register">
+</form>
+<p>Made with ❤️ by AdrianK 🤓</p>
+</body>
+</html>
